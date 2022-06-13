@@ -18,7 +18,6 @@
 
 #include "text_viewer-config.h"
 #include "text_viewer-window.h"
-#include "adwaita.h"
 
 struct _TextViewerWindow
 {

@@ -1,7 +1,7 @@
 {
     "app-id" : "org.example.TextViewer",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "42",
+    "runtime" : "org.gnome.Sdk",
+    "runtime-version" : "master",
     "sdk" : "org.gnome.Sdk",
     "command" : "text-viewer",
     "finish-args" : [
@@ -29,10 +29,13 @@
             "buildsystem" : "meson",
             "sources" : [
                 {
-                    "type" : "git",
+                    "type" : "ssh",
                     "url" : "file:///home/linusemmerich/Projects/text-viewer"
                 }
             ]
         }
-    ]
+    ],
+    "build-options" : {
+        "env" : {        }
+    }
 }
