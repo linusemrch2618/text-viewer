@@ -1,0 +1,7 @@
+data/org.example.TextViewer.desktop.in
+data/org.example.TextViewer.appdata.xml.in
+data/org.example.TextViewer.gschema.xml
+src/text_viewer-window.ui
+src/main.c
+src/text_viewer-window.c
+
