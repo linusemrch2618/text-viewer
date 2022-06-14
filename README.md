@@ -1,2 +1,2 @@
-# text-viewer
+# Text Viewer
 A simple Text Editor.
