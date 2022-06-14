@@ -22,7 +22,7 @@
         </child>
         <child type="end">
           <object class="GtkLabel" id="cursor_pos">
-            <property name="label">Ln 0, Col 0</property>
+            <property name="label">Ln 1, Col 1</property>
             <style>
               <class name="dim-label"/>
               <class name="numeric"/>
