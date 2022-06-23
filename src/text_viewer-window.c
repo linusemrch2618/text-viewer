@@ -378,7 +378,7 @@ text_viewer_window_init (TextViewerWindow *self)
                     G_CALLBACK (text_viewer_window__update_cursor_position),
                     self);
 
-  /*self->settings = g_settings_new ("com.example.TextViewer");
+  self->settings = g_settings_new ("com.example.TextViewer");
 
   g_settings_bind (self->settings, "window-width",
                    G_OBJECT (self), "default-width",
@@ -388,5 +388,5 @@ text_viewer_window_init (TextViewerWindow *self)
                    G_SETTINGS_BIND_DEFAULT);
   g_settings_bind (self->settings, "window-maximized",
                    G_OBJECT (self), "maximized",
-                   G_SETTINGS_BIND_DEFAULT);*/
+                   G_SETTINGS_BIND_DEFAULT);
 }
