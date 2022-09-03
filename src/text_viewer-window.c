@@ -378,7 +378,7 @@ text_viewer_window_init (TextViewerWindow *self)
                     G_CALLBACK (text_viewer_window__update_cursor_position),
                     self);
 
-  self->settings = g_settings_new ("com.example.TextViewer");
+  self->settings = g_settings_new ("org.example.TextViewer");
 
   g_settings_bind (self->settings, "window-width",
                    G_OBJECT (self), "default-width",
